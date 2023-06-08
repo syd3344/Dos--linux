@@ -11,8 +11,10 @@
   cd：更改当前目录。例如，cd C:\Windows 将当前目录更改为 C:\Windows。
 
   md：创建一个新目录。例如，md MyFolder 将在当前目录中创建一个名为 MyFolder 的新目录。
+  
+  rd: 删除指定的目录。例如，rd myfolder 将删除当前目录中名为 myfolder 的目录。rd 命令不能删除文件，如果你尝试使用 rd 命令删除文件，会收到一条错误消息。使用 rd 命令删除目录时，该目录必须为空。如果目录中包含文件或子目录，rd 命令将无法删除该目录并显示错误消息。如果要删除非空目录，可以使用 rd /s 命令。例如，rd /s myfolder 将删除当前目录中名为 myfolder 的目录及其所有子目录和文件。
 
-  del：删除一个文件。例如，del MyFile.txt 将删除当前目录中名为 MyFile.txt 的文件。
+  del：命令用于删除指定的文件。例如，del myfile.txt 将删除当前目录中名为 myfile.txt 的文件。del 命令不能删除目录，如果你尝试使用 del 命令删除目录，会收到一条错误消息。例如，del MyFile.txt 将删除当前目录中名为 MyFile.txt 的文件。
 
   copy：复制一个或多个文件。例如，copy MyFile.txt C:\Backup 将在 C:\Backup 中创建一个名为 MyFile.txt 的副本。
 
