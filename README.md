@@ -25,3 +25,24 @@
   cls：清除屏幕上的所有文本。
 
   exit：退出命令提示符窗口。
+  
+  
+##Linux
+
+  ls：列出当前目录中的文件和子目录。
+
+  cd：更改当前目录。例如，cd /usr/local/bin 将当前目录更改为 /usr/local/bin。
+
+  mkdir：创建一个新目录。例如，mkdir MyFolder 将在当前目录中创建一个名为 MyFolder 的新目录。
+
+  rm：删除一个文件或目录。例如，rm MyFile.txt 将删除当前目录中名为 MyFile.txt 的文件，rm -r MyFolder 将删除当前目录中名为 MyFolder 的目录及其所有子目录和文件。rm -rf 删除不为空的文件夹。
+
+  cp：复制一个或多个文件。例如，cp MyFile.txt /backup 将在 /backup 中创建一个名为 MyFile.txt 的副本。
+
+  mv：移动或重命名一个文件或目录。例如，mv MyFile.txt YourFile.txt 将名为 MyFile.txt 的文件重命名为 YourFile.txt，mv MyFile.txt /backup 将 MyFile.txt 移动到 /backup 目录中。
+
+  cat：显示一个文件的内容。例如，cat MyFile.txt 将在屏幕上显示名为 MyFile.txt 的文件的内容。
+
+  clear：清除屏幕上的所有文本。
+
+  exit：退出当前终端窗口。
